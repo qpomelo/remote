@@ -12,6 +12,7 @@ export const browserModuleNames = [
   'BaseWindow',
   'BrowserView',
   'BrowserWindow',
+  'WebContentsView',
   'contentTracing',
   'crashReporter',
   'dialog',
@@ -40,7 +41,6 @@ export const browserModuleNames = [
   'utilityProcess',
   'View',
   'webContents',
-  'WebContentsView',
   'webFrameMain',
 ].concat(commonModuleNames);
 

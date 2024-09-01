@@ -56,6 +56,8 @@ export var TouchBar: typeof Electron.TouchBar;
 export var Tray: typeof Electron.Tray;
 export var webContents: typeof Electron.webContents;
 export var webFrameMain: typeof Electron.webFrameMain;
+// export var webContentsView: typeof Electron.webContentsView;
+export var WebContentsView: typeof Electron.WebContentsView;
 
 // Taken from `Remote`
 export function getCurrentWebContents(): Electron.WebContents;
